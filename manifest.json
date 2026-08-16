@@ -1,8 +1,9 @@
-"name": "Chess Game",
+{
+  "name": "Chess Game",
   "short_name": "Chess",
   "start_url": "./index.html",
-  "scope": "./https://anupam100-coder.github.io/Chess/",
-  "display": "fullscreen",
+  "scope": "./",
+  "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "orientation": "portrait",
@@ -19,19 +20,5 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "id": "Chess",
-  "description": "This is simple chess game.",
-  "dir": "ltr",
-  "lang": "en",
-  "related_applications": [
-    {
-      "platform": "play",
-      "url": "Chess ",
-      "id": null
-    }
-  ],
-  "categories": [
-    "games"
   ]
 }
